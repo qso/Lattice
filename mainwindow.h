@@ -15,6 +15,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     
+
 private:
     bool isModified();
     void setModified(bool n);
@@ -22,6 +23,7 @@ private:
     bool bModified;
     QStringList recentFiles;
     Ui::MainWindow *ui;
+/*
 private slots:
     void newFile();
     void openFile();
@@ -39,7 +41,7 @@ private slots:
     void replace();
     void updateStatusBar();
     void updateCell();
-
+*/
 };
 
 #endif // MAINWINDOW_H

@@ -17,7 +17,8 @@ SOURCES += main.cpp\
     spreadsheet.cpp
 
 HEADERS  += mainwindow.h \
-    spreadsheet.h
+    spreadsheet.h \
+    latticeUI.h
 
 FORMS    += mainwindow.ui
 
