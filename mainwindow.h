@@ -17,13 +17,14 @@ public:
     
 
 private:
+    void connection();
     bool isModified();
     void setModified(bool n);
 
     bool bModified;
     QStringList recentFiles;
     Ui::MainWindow *ui;
-/*
+
 private slots:
     void newFile();
     void openFile();
@@ -34,14 +35,15 @@ private slots:
     void cut();
     void copy();
     void paste();
+    void deleteCell();
     void setCellFont();
     void setCellBackGround();
-    void sortCell();
+    void sort();
     void find();
     void replace();
     void updateStatusBar();
     void updateCell();
-*/
+
 };
 
 #endif // MAINWINDOW_H
